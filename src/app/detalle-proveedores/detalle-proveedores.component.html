@@ -1,0 +1,11 @@
+<div *ngIf="proveedor">
+  <h3>Detalle del proveedor</h3>
+  <p>{{ proveedor.id }}</p>
+  <p>{{ proveedor.nombre }}</p>
+  <p>{{ proveedor.contacto }}</p>
+  <p>{{ proveedor.direccion }}</p>
+  <p>Contactar en:</p>
+  <p>{{ proveedor.medio.email }}</p>
+  <p>{{ proveedor.medio.movil }}</p>
+</div>
+<button (click)="volver()">Volver</button>

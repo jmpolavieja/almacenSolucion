@@ -1,0 +1,9 @@
+<div *ngIf="producto">
+  <h3>Detalle del producto {{ producto.id }}</h3>
+  <p>Nombre: {{ producto.nombre }}</p>
+  <p>Precio: {{ producto.precio }}</p>
+  <p>Stock actual: {{ producto.stock }}</p>
+  <p>Familia: {{ producto.familia }}</p>
+  <img width="150px" src="assets/imagenes/{{ producto.imagen }}">
+</div>
+
